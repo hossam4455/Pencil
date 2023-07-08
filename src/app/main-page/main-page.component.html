@@ -1,0 +1,8 @@
+<div class="new-game">
+    <button (click)="createNewGame()">Create New Game</button>
+</div>
+
+<div class="main-page">
+    <app-iframe-one (moveEvent)="moveInParent($event)" [moveIFrameOne]="move" [newGameFlag]="newGameFlag"></app-iframe-one>
+    <app-iframe-two (moveEvent)="moveInParent($event)" [moveIFrameTwo]="move" [newGameFlag]="newGameFlag"></app-iframe-two>
+</div>

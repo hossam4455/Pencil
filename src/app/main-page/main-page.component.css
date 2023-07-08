@@ -1,0 +1,19 @@
+.main-page {
+    display: flex;
+    gap: 3rem;
+}
+
+.new-game {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.new-game button {
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
